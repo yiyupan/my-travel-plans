@@ -40,6 +40,10 @@ body {
     text-align: center;
 }
 
+.destination:hover h2 {
+    transform: rotate(0deg);
+}
+
 h2 {
     margin: 0;
     transform: rotate(-45deg);
@@ -55,6 +59,4 @@ h2 {
     background-color: #d32f2f;
 }
 
-.destination:hover h2 {
-    transform: rotate(0deg);
-}
+
